@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LR3", "LR3.csproj", "{15594867-34CB-42C4-9BB3-104B9E3987B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControls", "..\UserControls\UserControls.csproj", "{9688004B-C62F-4391-AE93-84F37A698BF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15594867-34CB-42C4-9BB3-104B9E3987B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15594867-34CB-42C4-9BB3-104B9E3987B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15594867-34CB-42C4-9BB3-104B9E3987B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15594867-34CB-42C4-9BB3-104B9E3987B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9688004B-C62F-4391-AE93-84F37A698BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9688004B-C62F-4391-AE93-84F37A698BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9688004B-C62F-4391-AE93-84F37A698BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9688004B-C62F-4391-AE93-84F37A698BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E08CD3C9-7EEB-454B-A739-E974C3E1E1B9}
+	EndGlobalSection
+EndGlobal
