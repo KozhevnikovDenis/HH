@@ -1,0 +1,10 @@
+﻿// POSU 4.idl: источник библиотеки типов для POSU 4.dll
+// Этот файл будет обработан компилятором MIDL для создания
+// библиотека типов (POSU 4.tlb).
+
+[ uuid(ccf02f46-fb9a-4f37-bc7e-efc252a9420d), version(1.0) ]
+library POSU4
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};

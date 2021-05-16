@@ -1,0 +1,17 @@
+﻿REGEDIT
+; Возможно, этот файл .REG используется программой установки.
+;   Если программа SETUP недоступна, записи, расположенные ниже, будут зарегистрированы
+;   в InitInstance автоматически с вызовом в
+;   CWinApp::RegisterShellFileTypes и COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\POSU4MFC.Application = POSU4MFC Application
+
+
+HKEY_CLASSES_ROOT\POSU4MFC.Application\CLSID = {7b26a58b-20d9-47c8-8f15-11eff99a2183}
+
+HKEY_CLASSES_ROOT\CLSID\{7b26a58b-20d9-47c8-8f15-11eff99a2183} = POSU4MFC Application
+HKEY_CLASSES_ROOT\CLSID\{7b26a58b-20d9-47c8-8f15-11eff99a2183}\ProgId = POSU4MFC.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{7b26a58b-20d9-47c8-8f15-11eff99a2183}\LocalServer32 = POSU 4 MFC.EXE

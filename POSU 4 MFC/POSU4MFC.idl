@@ -1,0 +1,29 @@
+﻿// POSU4MFC.idl: источник библиотеки типов для POSU 4 MFC.exe
+
+// Этот файл будет обработан компилятором MIDL для создания
+// библиотека типов (POSU4MFC.tlb).
+
+[ uuid(1c9b7476-041e-407d-9d5a-521fee39c983), version(1.0) ]
+library POSU4MFC
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Первичный интерфейс диспетчеризации для CPOSU4MFCDoc
+
+	[ uuid(ed5d5f12-d574-4c84-92df-8e7f3d3c407a) ]
+	dispinterface IPOSU4MFC
+	{
+		properties:
+
+		methods:
+	};
+
+	//  Сведения о классе CPOSU4MFCDoc
+
+	[ uuid(7b26a58b-20d9-47c8-8f15-11eff99a2183) ]
+	coclass POSU4MFC
+	{
+		[default] dispinterface IPOSU4MFC;
+	};
+};

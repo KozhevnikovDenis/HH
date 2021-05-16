@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "POSU 3 Polygon", "POSU 3 Polygon.vcxproj", "{DE2F0A47-86DD-4F63-A836-7388F7A45358}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "POSU 3 PolygonPS", "POSU 3 PolygonPS\POSU 3 PolygonPS.vcxproj", "{A14031FA-5713-4261-A4A7-6DB42FBFF796}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DE2F0A47-86DD-4F63-A836-7388F7A45358} = {DE2F0A47-86DD-4F63-A836-7388F7A45358}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE2F0A47-86DD-4F63-A836-7388F7A45358}.Debug|x64.ActiveCfg = Debug|x64
+		{DE2F0A47-86DD-4F63-A836-7388F7A45358}.Debug|x64.Build.0 = Debug|x64
+		{DE2F0A47-86DD-4F63-A836-7388F7A45358}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE2F0A47-86DD-4F63-A836-7388F7A45358}.Debug|x86.Build.0 = Debug|Win32
+		{DE2F0A47-86DD-4F63-A836-7388F7A45358}.Release|x64.ActiveCfg = Release|x64
+		{DE2F0A47-86DD-4F63-A836-7388F7A45358}.Release|x64.Build.0 = Release|x64
+		{DE2F0A47-86DD-4F63-A836-7388F7A45358}.Release|x86.ActiveCfg = Release|Win32
+		{DE2F0A47-86DD-4F63-A836-7388F7A45358}.Release|x86.Build.0 = Release|Win32
+		{A14031FA-5713-4261-A4A7-6DB42FBFF796}.Debug|x64.ActiveCfg = Debug|x64
+		{A14031FA-5713-4261-A4A7-6DB42FBFF796}.Debug|x86.ActiveCfg = Debug|Win32
+		{A14031FA-5713-4261-A4A7-6DB42FBFF796}.Release|x64.ActiveCfg = Release|x64
+		{A14031FA-5713-4261-A4A7-6DB42FBFF796}.Release|x86.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D936D778-7F7C-495D-B181-00A38348F914}
+	EndGlobalSection
+EndGlobal

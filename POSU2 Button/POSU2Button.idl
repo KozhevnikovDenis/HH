@@ -1,0 +1,55 @@
+﻿// POSU2 Button.idl: источник библиотеки типов для проекта элементов управления ActiveX.
+
+// Этот файл будет обработан компилятором MIDL для
+// создание библиотеки типов (POSU2 Button.tlb), которая станет ресурсом в
+// POSU2 Button.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(1941665f-54b8-4657-97e5-1674b04b0757), version(1.0),
+  control ]
+library POSU2ButtonLib
+{
+	importlib(STDOLE_TLB);
+
+	//  Первичный интерфейс диспетчеризации для CPOSU2ButtonCtrl
+	[ 
+		uuid(334d5076-f138-4947-8125-f351af761391)
+	]
+	dispinterface _DPOSU2Button
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(3), propget] VARIANT_BOOL shape();
+			[id(3), propput] void shape(VARIANT_BOOL newVal);
+			[id(4), propget] VARIANT_BOOL select();
+			[id(4), propput] void select(VARIANT_BOOL newVal);
+	};
+
+	//  Интерфейс диспетчеризации событий для CPOSU2ButtonCtrl
+
+	[ 
+		uuid(7afe8d83-95ae-44f1-9ab4-878e815f0954)
+	]
+	dispinterface _DPOSU2ButtonEvents
+	{
+		properties:
+			//  Интерфейс событий не имеет свойств
+
+		methods:
+	};
+
+	//  Сведения о классе CPOSU2ButtonCtrl
+	[
+		uuid(d7187b45-b33b-4408-aefa-af36d2845529)
+	]
+	coclass POSU2Button
+	{
+		[default] dispinterface _DPOSU2Button;
+		[default, source] dispinterface _DPOSU2ButtonEvents;
+	};
+
+};
