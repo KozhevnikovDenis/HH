@@ -1,0 +1,41 @@
+html
+{
+    background-image: url("2.gif"), url("2.gif"), url("3.gif"), url("4.gif"); 
+    background-repeat: repeat-y, repeat-y, repeat-x, repeat-x;
+    background-position: left, right, top, bottom;
+    box-sizing: border-box;
+    background-size: 20%, 20%, 20%, 20%;
+
+
+    background-color: skyblue;
+}
+
+h1 
+{
+    font-size: xx-large;
+    color:blueviolet;
+    background-color:crimson;
+    border: 1px solid black;
+    text-shadow: 1px 1px black;
+}
+
+h2 
+{
+    font-size: x-large;
+    color:goldenrod;
+    text-shadow: 1px 1px black;
+}
+    
+h3
+{
+    font-size: large;
+    color:limegreen;
+    text-shadow: 1px 1px black;
+}
+     
+p 
+{
+    font-size: large;
+    color:darkviolet;
+    text-shadow: 1px 1px black;
+}

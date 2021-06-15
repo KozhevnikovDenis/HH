@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Лаборатораня работа №3</title>
+    </head>
+
+
+    <body>
+        <i><h1 align="center">Добро пожаловать в интернет!</h1></i>
+    </body>
+
+    <center>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <h2 align="center">Ввод данных.</h2>
+    <form name="form1">
+        <h3> Введите два числа:</h3>  
+        A = <input type="text" name="a" size="4" placeholder="Ввод a">
+        <br><br>
+        B = <input type="text" name="b" size="4" placeholder="Ввод b">
+        <br><br>
+        <input type="button" value="Показать минимальное" onclick="Min()" />
+        <input type="button" value="Показать максимальное" onclick="Max()"/>
+        <input type="button" value="Проверка на равество" onclick="Eq()"/>
+        <br><br>
+        Результат: <input type="text" readonly name="result" size="10">
+        <br><br>
+    </form>
+
+    <h2 align="center">Узнать имя админа.</h2>
+    <form name="form2">
+        <h3>Узнать:</h3>
+        <input type="button" value="Да" onclick="Yes()">
+        <input type="button" value="Нет" onclick="No()">
+        <br><br>
+        <input type="text" readonly name="result" size="10">
+        <br><br>
+    </form>
+
+    <h2 align="center">Сколько вам лет?</h2>
+    <form name="form3">     
+        <h3> Введите ваш возраст:</h3>   
+         Возраст = <input type="text" name="age" size="10" placeholder="Ввод возраста">
+        <br><br>
+        <input type="button" value="Принять" onclick="Age()">
+        <br><br>
+    </form>
+
+    
+       
+    
+    <h2>Информация:</h2>  
+    <img src="1.gif">
+    <br><br>
+    ФИО: Кожевников Денис Андреевич<br>
+    Возраст: 21 год<br>
+    Город: Москва<br>
+    Студент группы: АДБ-18-07<br>
+    Особые навыки: делать сайты<br>
+    <br><br>
+    
+
+    <form name="form4">
+        <h2>Расскажите о себе:</h2>
+        <p> Как вас зовут:                  <input type="text" name="name" size="10" placeholder="ФИО" required></p>
+        <p> В каком городе вы живете:       <input type="text" name="city" size="10" placeholder="Город" required></p>
+        <p> Сколько вам лет:                <input type="number" name="age" size="10" placeholder="Возраст" required min="1" max = "100"></p>
+        <p> Введите вашу электронную почту: <input type="email" name="mail" size="10" placeholder="@mail" required></p>
+        <p> Введите ваш номер телефона:     <input type="number" name="phonenumber" size="10" placeholder="Номер" required></p>
+        <input type="submit" value="Принять"> <input type="button" value="Отправить на сервер" onclick="Subm()">
+    </form>
+
+    </center>
+</html> 
